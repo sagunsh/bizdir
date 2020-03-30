@@ -1,0 +1,201 @@
+.jumbotron {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin-bottom: 0;
+	background-color: #fff;
+}
+@media (min-width: 768px) {
+	.jumbotron {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+}
+
+nav.navbar a.navbar-brand {
+	font-family: 'Roboto Mono', monospace;
+}
+
+/*index*/
+a.contact-link {
+	margin-right: 10px;
+	padding-right: 10px;
+	color: #495057;
+}
+
+.jumbotron p:last-child {
+	margin-bottom: 0;
+}
+
+.jumbotron h1 {
+	font-weight: 300;
+}
+
+.jumbotron .container {
+	max-width: 40rem;
+}
+
+/*pricing*/
+html {
+	font-size: 14px;
+}
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+.container {
+	max-width: 960px;
+}
+
+.pricing-header {
+	max-width: 700px;
+}
+
+.card-deck .card {
+	min-width: 220px;
+}
+
+footer {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+footer p {
+	margin-bottom: .25rem;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer .copyright p {
+	margin-bottom: 0;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #dc3545;
+	text-decoration: none;
+}
+
+div.card-body > p {
+	/*border: 1px solid black;*/
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+footer ul {
+	padding-left: 0;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+footer ul li {
+	display: inline;
+	padding: 10px;
+}
+
+footer .copyright {
+	margin-top: 25px;
+	padding-top: 25px;
+	border-top: 1px solid #515151;
+}
+
+
+/* for forms */
+.form-signin {
+	width: 100%;
+	max-width: 420px;
+	padding: 15px;
+	margin: auto;
+}
+
+.form-label-group {
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+	height: 3.125rem;
+	padding: .75rem;
+}
+
+.form-label-group > label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	margin-bottom: 0; /* Override default `<label>` margin */
+	line-height: 1.5;
+	color: #495057;
+	pointer-events: none;
+	cursor: text; /* Match the input under the label */
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+	color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+	color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+	color: transparent;
+}
+
+.form-label-group input::placeholder {
+	color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+	padding-top: 1.25rem;
+	padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	font-size: 12px;
+	color: #777;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+	.form-label-group > label {
+		display: none;
+	}
+
+	.form-label-group input::-ms-input-placeholder {
+		color: #777;
+	}
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.form-label-group > label {
+		display: none;
+	}
+
+	.form-label-group input:-ms-input-placeholder {
+		color: #777;
+	}
+}
